@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #191931;
+    color: #e1e1f1;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    padding-top: 4rem;
+    gap: 1rem;
+}
+
+.Logo {
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    box-shadow: 0 0 8px 1px white;
+    flex-wrap: nowrap;
+}
+
+h2 {
+    text-align: center;
+    text-wrap: balance;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+i {
+    font-size: 1.5rem;
+}
+
+.sosmed i {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.sosmed a:not(:last-child) {
+    margin-right: 1rem;
+}
+
+.link-bar {
+    display: flex;
+    width: 80%;
+    max-width: 35rem;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid white;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    gap: 20px;
+    align-items: center;
+    border-radius: 4px;
+    transition-duration: 200ms;
+}
+
+.link-bar:hover {
+    background: white;
+    color: #191931;
+}
