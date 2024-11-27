@@ -23,7 +23,7 @@ body {
     border-radius: 50%;
     object-fit: cover;
     object-position: top;
-    box-shadow: 0 0 8px 1px #e1e1f1;
+    box-shadow: 0 0 8px 1px #dcab4f;
     flex-wrap: nowrap;
 }
 
