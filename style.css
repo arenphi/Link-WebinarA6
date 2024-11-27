@@ -47,8 +47,12 @@ i {
 }
 
 .sosmed i {
-    font-size: 1.8rem;
-    color: white;
+    font-size: 1.3rem;
+    color: #e1e1f1;
+    width: 80%;
+    border: 1.5px solid #e1e1f1;
+    border-radius: 50%;
+    padding: 5px;
 }
 
 .sosmed a:not(:last-child) {
